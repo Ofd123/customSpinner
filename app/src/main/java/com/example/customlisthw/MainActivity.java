@@ -1,6 +1,9 @@
 package com.example.customlisthw;
 
 import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.Spinner;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +13,9 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity
 {
+    Spinner spin;
+    TextView countryName,capitalCity,population;
+    ImageView flag;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)

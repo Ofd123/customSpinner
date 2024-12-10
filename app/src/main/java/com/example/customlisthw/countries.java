@@ -7,6 +7,7 @@ public class countries
     public String capitalCity;
     public int populationSize;
 
+    int [] imgs = {R.drawable.UKFlag,R.drawable.};
     public countries(String flagId, String country, int populationSize, String capitalCity)
     {
         this.flagId = flagId;
@@ -15,6 +16,7 @@ public class countries
         this.capitalCity = capitalCity;
     }
 
+    // Getters and setters for each field just felt like doing for chance
     public String getFlagId()
     {
         return flagId;
